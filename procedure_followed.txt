@@ -1,0 +1,15 @@
+!! ERROR !!
+
+remote: Permission to Rath2601/spring-core.git denied to Raj-Naveen.
+fatal: unable to access 'https://github.com/Rath2601/spring-core.git/':
+The requested URL returned error: 403
+
+
+!! PROCEDURE !!
+
+First tried and used the Personal Access Token 
+But I need to use every time I push the code.
+
+Second I've deleted the credential in (Control Panel\User Accounts\Credential Manager) of Github for Visual Code , github.com and git (some kind of github related credentials).
+
+After deleting them I can able to link local <--> remote repo using git remote ad origin <URL of git repo created>. Need to check again by commiting this file.
