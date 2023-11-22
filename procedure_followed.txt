@@ -12,4 +12,8 @@ But I need to use every time I push the code.
 
 Second I've deleted the credential in (Control Panel\User Accounts\Credential Manager) of Github for Visual Code , github.com and git (some kind of github related credentials).
 
-After deleting them I can able to link local <--> remote repo using git remote ad origin <URL of git repo created>. Need to check again by commiting this file.
+After deleting them I can able to link local <--> remote repo using git remote  add origin <URL of git repo created>. Need to check again by commiting this file.
+
+!! NOTE !! 
+
+can able to push to the remote easily by just the command 'git push'. Need to check with test repo again for final confirmation
